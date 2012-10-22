@@ -8,18 +8,10 @@
        
     </head>
     <body>
-        <h1 id="h1">div 1 </h1>
-       
-        <div id="id1">
-         
-        </div>
-        
-        <h1 id="h2">div2</h1>
-        <div id="id2">
-        </div>
-        
-        <h1 id="h3">div3</h1>
-        <div id="id3">
-        </div>
+        <form action="#" method="post">
+            <input type="text" id="username" name="username" />
+            <input type="submit" id="submit" value="test" />
+            <span id="id1"><span>
+        </form>
     </body>
 </html>
