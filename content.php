@@ -21,11 +21,11 @@ if(!empty($_POST))
     $res=fetch($_POST);//si le nombre de colonne = 0 alors username n existe pa ==>affiche valid
     if($res==0)
     {
-        echo "valid username";
+        echo $_POST['username'].": valid username";
     }
     else //si nn affiche invalide 
     {
-        echo "username exist";
+        echo $_POST['username'].":username exist";
     }
 }
 ?>
